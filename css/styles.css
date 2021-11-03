@@ -1,0 +1,236 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  color: grey;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/*Title Section*/
+#title{
+  background-color: black;
+  background-image: linear-gradient(#1C3D89, #CB132B);
+  padding: 1% 15% 5%;;
+}
+
+#logo{
+  height: 40px;
+  width: 53px;
+}
+
+.title-quote{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #edf035;
+}
+
+.title-h3{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  color: #edf035;
+  font-size: 2.5rem;
+}
+
+.gr1080{
+  border-radius: 20px;
+}
+
+.btn-see-more{
+  margin: 5% 3% 5% 0;
+}
+.fab-arrow{
+  margin-left: 10px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.brand-title{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
+.links{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  margin-right: 50px;
+}
+
+/*Ghostrunners Section*/
+#ghostrunners{
+  background-image: linear-gradient(to right,#D8203C,grey);
+  padding: 20px;
+}
+
+.img-ghostrunner:hover{
+  position: relative;
+  top: -15px;
+}
+
+.ghostrows{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+h2.ghost-h2{
+  font-weight: bold;
+  color: #a2f718;
+}
+
+
+.ghost-img1{
+  padding-bottom: 5px;
+}
+.ghost-img2{
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+.ghost-img3{
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+/*Features Section*/
+
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  background-image: linear-gradient(to right, aliceblue, #75a1c7);
+}
+.feature-p{
+  color: black;
+}
+
+.icon-ft{
+  padding: 1rem;
+  color: #cb132b;
+}
+.icon-ft:hover{
+  color: #273A82;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.feature-col{
+  padding: 5%;
+}
+
+
+/*Testimonial Section*/
+#testimonials{
+  background-image: linear-gradient(#50223C,#1C2340);
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+
+/*Press Section*/
+#press{
+  background-image: linear-gradient(#1C2340,black);
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+  text-align: center;
+  background-color: #C6142D;
+  padding: 100px;
+}
+
+div p{
+  color: white;
+}
+
+.price-heading, .price-text{
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-p{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.card{
+  background-color: #b23445;
+}
+
+.card-h3{
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/*CTA Section*/
+#cta{
+  background-color: #39424d;
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.cta-title{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/*Footer Section*/
+#footer{
+  text-align: center;
+  padding: 1% 14%;
+}
+
+.foot-icon{
+  font-size: 2rem;
+  padding: 10px 10px;
+}
+
+@media (max-width: 990px) {
+  .title-quote{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .col-one{
+    text-align: center;
+  }
+  .gr1080{
+    position: relative;
+    left: 135px;
+    width: 60%;
+    text-align: center;
+  }
+}
